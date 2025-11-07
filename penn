@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi primera página</title>
+</head>
+<body>
+    <h1>Examen de Programación Web</h1>
+    <p>Autor: [Tu nombre completo]</p>
+    <p>Este documento demuestra mis conocimientos de HTML.</p>
+
+    <!-- Imagen (de internet) -->
+    <img src="https://via.placeholder.com/400x200.png?text=Imagen+de+ejemplo" alt="Imagen de ejemplo" width="400">
+
+    <!-- Enlace a sitio educativo -->
+    <p>Recurso recomendado: <a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a></p>
+
+    <!-- Tabla 3x3 (materias y calificaciones) -->
+    <table border="1" cellpadding="6" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Materia</th>
+                <th>Parcial</th>
+                <th>Final</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Programación Web</td>
+                <td>9.0</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <td>Algoritmos</td>
+                <td>8.5</td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td>Bases de Datos</td>
+                <td>8.0</td>
+                <td>8.7</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+``` 
+
+Para abrirlo en el navegador del host desde el contenedor usa:
+$BROWSER file:///workspaces/Examen2/pagina_basica.html// filepath: /workspaces/Examen2/pagina_basica.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi primera página</title>
+</head>
+<body>
+    <h1>Examen de Programación Web</h1>
+    <p>Autor: [Tu nombre completo]</p>
+    <p>Este documento demuestra mis conocimientos de HTML.</p>
+
+    <!-- Imagen (de internet) -->
+    <img src="https://via.placeholder.com/400x200.png?text=Imagen+de+ejemplo" alt="Imagen de ejemplo" width="400">
+
+    <!-- Enlace a sitio educativo -->
+    <p>Recurso recomendado: <a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a></p>
+
+    <!-- Tabla 3x3 (materias y calificaciones) -->
+    <table border="1" cellpadding="6" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Materia</th>
+                <th>Parcial</th>
+                <th>Final</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Programación Web</td>
+                <td>9.0</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <td>Algoritmos</td>
+                <td>8.5</td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td>Bases de Datos</td>
+                <td>8.0</td>
+                <td>8.7</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+``` 
+
+Para abrirlo en el navegador del host desde el contenedor usa:
+$BROWSER file:///workspaces/Examen2/pagina_basica.html
